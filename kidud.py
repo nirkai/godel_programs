@@ -18,5 +18,5 @@ def fuctors(num):
 	return x, y
 
 num = sys.argv[1]
-x,y = fuctors(int(num))
+x,y = fuctors(int(num) + 1)
 print '<',x,',',y,'>'
