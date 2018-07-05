@@ -19,10 +19,10 @@ def godel(p, f):
 	index = 0
 	while (next_p <= last_p):
 		if next_p < cur_p:
-			p_list.append(0)
+			p_list.append(next_p)
 			f_list.append(0)
 		else:
-			p_list.append(p[index])
+			p_list.append(next_p)
 			f_list.append(f[index])
 			index += 1
 			if index < len(p):
